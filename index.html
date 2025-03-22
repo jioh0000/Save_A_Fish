@@ -6,11 +6,46 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Save A Fish</title>
         <link rel="stylesheet" href="styles.css">
+        <!-- Font Aswesome Link -->
+        <script src="https://kit.fontawesome.com/3c5caf3a5f.js" crossorigin="anonymous"></script>
     </head>
 
     <body>
         <header>
-            <nav>
+            <nav class="navbar" role="navigation" aria-label="Main Navigation">
+                <div class="navbar__container">
+                    <a href="/" id="navbar-logo">Save A Fish</a>
+                    <ul class="navbar__menu">
+                        <li class="navbar__item">
+                            <a href="/" class="navbar__links">Home</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="/about.html" class="navbar__links">About</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="/adopt.html" class="navbar__links">Adopt</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="/tank.html" class="navbar__links">Tank</a>
+                        </li>
+                        <li class="navbar__btn mobile">
+                            <a href="/signup.html" class="button">Sign Up</a>
+                        </li>
+                    </ul>
+
+                    <div class="navbar__btn desktop">
+                        <a href="/signup.html" class="button">Sign Up</a>
+                    </div>
+
+                    <button class="navbar__toggle" id="mobile-menu" aria-label="Toggle Navigation" aria-expanded="false">
+                        <i class="fa-solid fa-bars" style="color: #567c8d;"></i>
+                    </button>
+                </div>
+
+            </nav>
+
+
+            <!-- <nav>
                 <h2>Save A Fish</h2>
                 <ul>
                     <li><a>Home</a></li>
@@ -18,18 +53,16 @@
                     <li><a>Adopt</a></li>
                     <li><a>Tank</a></li>
                 </ul>
-            </nav>
+            </nav> -->
         </header>
 
-        <main>
-            <h1>Save A Fish</h1>
-            <p>Main content</p>
-        </main>
+        <script src="app.js"></script>
 
-        <footer>
+
+        <!-- <footer>
             <p>copyright All rights reserved.</p>
 
-        </footer>
+        </footer> -->
 
     </body>
 
