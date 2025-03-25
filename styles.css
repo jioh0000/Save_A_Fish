@@ -11,7 +11,7 @@
     justify-content: space-between;
     align-items: center;
     height: 80px;
-    background-color: #F5EFEB;
+    background-color: white;
     z-index: 1000;
     width: 100%;
     margin: 0 auto;
@@ -208,4 +208,78 @@ h4 {
 .hero_btn:hover {
     background: #2F4156;
     transition: all 0.3s ease;
-  }
+}
+
+/* Why section */
+.why {
+    background-color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.why h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #567C8D
+}
+
+.why .intro-text {
+    font-size: 2rem;
+    color: #567C8D;
+    margin-bottom: 50px;
+    /* max-width: 100px; */
+    /* margin: 0 auto; */
+}
+
+.features-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+
+.feature-item {
+    color: white;
+    background-color: #567C8D;
+    /* box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.6); */
+    border-radius: 10px;
+    padding: 50px;
+    text-align: left;
+    width: 30%;
+}
+
+.footer {
+    background-color: #567C8D;
+    color: white;
+    padding: 45px 20px;
+    font-size: 15px;
+}
+
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+}
+
+#footer-logo {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#footer-logo:hover {
+    color: #2F4156;
+    transition: all 0.3s ease;
+}
+
+.footer-col {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 50px;
+}
+
+.copyright-text {
+    text-align: center;
+}
