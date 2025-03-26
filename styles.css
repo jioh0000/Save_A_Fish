@@ -161,6 +161,7 @@
     }
 }
 
+
 /* Hero CSS */
 .hero {
     background-image: url(/images/hero-pic-2.jpg);
@@ -282,4 +283,125 @@ h4 {
 
 .copyright-text {
     text-align: center;
+}
+
+/* adopt page */
+/* ===== Fix for adopt.html ===== */
+main {
+    padding-top: 80px; /* Push content below fixed navbar */
+    min-height: calc(100vh - 80px); /* Full viewport height minus navbar */
+}
+
+.adopt-section {
+    padding: 50px 20px; /* Adjusted spacing */
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.adopt-section h2 {
+    margin-bottom: 30px;
+}
+
+#fish-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 700px;
+    margin: auto;
+}
+
+.fish-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.1); 
+}
+
+/* Adjust fish-info to align image and description independently */
+.fish-info {
+    display: flex;
+    align-items: center; 
+    gap: 20px; 
+}
+
+/* Set a fixed size for the image and prevent it from shrinking */
+.fish-img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+/* Fish description container */
+.fish-desc {
+    text-align: left;
+    min-height: 1.5em; 
+}
+
+/* Fish name and description styling */
+.fish-desc strong {
+    font-size: 1.1rem;
+    display: block;
+    margin-bottom: 10px; 
+}
+
+.fish-desc span {
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.5; 
+}
+
+
+.fish-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.fish-controls button {
+    background-color: #567C8D;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.fish-controls button:hover {
+    background-color: #2F4156;
+}
+
+.fish-count {
+    width: 30px;
+    display: inline-block;
+    text-align: center;
+}
+
+.adopt-button-wrapper {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#adopt-button {
+    font-size: 1.1rem;
+    padding: 12px 30px;
+    background-color: #567C8D;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+
+#adopt-button:hover {
+    background-color: #2F4156;
+    transform: translateY(-2px);
 }

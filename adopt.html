@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Adopt Page</title>
+        <link rel="stylesheet" href="styles.css">
+        <!-- Font Aswesome Link -->
+        <script src="https://kit.fontawesome.com/3c5caf3a5f.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar" role="navigation" aria-label="Main Navigation">
+                <div class="navbar__container">
+                    <a href="/" id="navbar-logo">Save A Fish</a>
+                    <ul class="navbar__menu">
+                        <li class="navbar__item">
+                            <a href="/" class="navbar__links">Home</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="/about.html" class="navbar__links">About</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="/adopt.html" class="navbar__links">Adopt</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="/tank.html" class="navbar__links">Tank</a>
+                        </li>
+                        <li class="navbar__btn mobile">
+                            <a href="/signup.html" class="button">Sign Up</a>
+                        </li>
+                    </ul>
+
+                    <div class="navbar__btn desktop">
+                        <a href="/signup.html" class="button">Sign Up</a>
+                    </div>
+
+                    <button class="navbar__toggle" id="mobile-menu" aria-label="Toggle Navigation" aria-expanded="false">
+                        <i class="fa-solid fa-bars" style="color: #567c8d;"></i>
+                    </button>
+                </div>
+
+            </nav>
+            <!-- <nav>
+                <h2>Save A Fish</h2>
+                <ul>
+                    <li><a>Home</a></li>
+                    <li><a>About Us</a></li>
+                    <li><a>Adopt</a></li>
+                    <li><a>Tank</a></li>
+                </ul>
+            </nav> -->
+        </header>
+
+        <main>
+            <section class="adopt-section">
+              <div class="container">
+                <h2>Choose Your Fish</h2>
+                <div id="fish-list"></div>
+        
+                <div class="adopt-button-wrapper">
+                  <button id="adopt-button" class="button">Adopt</button>
+                </div>
+              </div>
+            </section>
+          </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-row">
+                    <a href="/" id="footer-logo">Save A Fish</a>
+                    <div class="footer-col">
+                        <p>Contact: email_address@gmail.com</p>
+                    </div>
+                </div>
+                <p class="copyright-text">© 2025 Team Neptune. All Rights Reserved.</p>
+            </div>
+        </footer>
+
+        <script src="app.js"></script>
+        <script src="adopt.js"></script>
+
+
+        <!-- <footer>
+            <p>copyright All rights reserved.</p>
+
+        </footer> -->
+          
+
+    </body>
+
+
+</html>
